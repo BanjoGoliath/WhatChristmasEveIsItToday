@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
-    <title>What Chirstmas Eve is it Today?</title>
+    <title>What Christmas Eve is it Today?</title>
 </head>
-<body class="center" onload="loadDates()">
+<!--onload is obsolete apparently-->
+<body class="center" onload="loadPage()" style="background-color:grey;">
 
     <h1> The Current Date Today is <span id="daDate"></span></h1>
-    <h2> Or, it is  </h2>
+    <h2> Also known as  </h2>
     <h1>
         <span id ="whatEve"></span>
     </h1>
+    <h2> Or </h2>
+    <h1>
+        <span id="simple"></span>
+    </h1>
 
+    <select name="Day" id="daySelect"></select>
+    <select name="Month" id="monthSelect"></select>
+    <input id = yearInput>
+
+    <button onclick="refreshButton()">Refresh</button>
+
+    <footer>Made By <a href="https:/github.com/BanjoGoliath">Banjo</a> with mixed feelings (on web dev). <a href="https://github.com/BanjoGoliath/WhatChristmasEveIsItToday">Source Code</a> </footer>
 <script src="index.js"></script>
 </body>
 </html>

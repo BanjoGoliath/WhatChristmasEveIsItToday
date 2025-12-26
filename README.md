@@ -7,7 +7,8 @@ This website tells you what Eve of Christmas the current day is.
 For example, the 23rd of December would be Christmas Eve Eve, the 22nd
 Christmas Eve Eve Eve, and so forth.
 
-Days between December 25th - 31st are marked as "Christmas Morrow".
+Days between December 25th through to December 31st are marked as "Christmas Morrow".
 
-# NOTE
-I don't like JavaScript so I don't care if this code sucks
+# Note
+~~I don't like JavaScript (or web dev in general) so I don't care if this code sucks~~
+ok maybe raw HTML+JS+CSS isn't too bad
